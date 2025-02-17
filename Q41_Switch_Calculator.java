@@ -1,6 +1,8 @@
+
+//Built A Arithmetic Calculator Using Switch And Class Concept.
 import java.util.Scanner;
 
-public class Switch_Calculator {
+public class Q41_Switch_Calculator {
     Scanner Calculator = new Scanner(System.in);
     int Number1, Number2, Result;
 
@@ -34,8 +36,9 @@ public class Switch_Calculator {
     public static void main(String[] args) {
         while (true) {
             System.out.println("\n");
-        Switch_Calculator Calculate = new Switch_Calculator();
-        System.out.print("Enter + For Addition\nEnter - For Subtraction\nEnter * For Multiplication\nEnter / For Division\nEnter Your Choice: ");
+            Q41_Switch_Calculator Calculate = new Q41_Switch_Calculator();
+            System.out.print(
+                    "Enter + For Addition\nEnter - For Subtraction\nEnter * For Multiplication\nEnter / For Division\nEnter Your Choice: ");
             char Choice = Calculate.Calculator.nextLine().charAt(0);
 
             switch (Choice) {
@@ -55,7 +58,7 @@ public class Switch_Calculator {
                     Calculate.Input();
                     Calculate.Divide();
                     break;
-                    case 'E':
+                case 'E':
                     System.exit(0);
                 default:
                     System.out.println("Invalid Choice");

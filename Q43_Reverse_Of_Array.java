@@ -1,9 +1,12 @@
+
+//WAP To Input An 1D Array And Print It In Reverse Order, Without Using In-Built Function.
 import java.util.Scanner;
 
-public class Reverse_Of_Array {
+public class Q43_Reverse_Of_Array {
     Scanner Reverse = new Scanner(System.in);
     int i, Num;
     int Number[];
+
     void Input() {
         System.out.print("Enter Number OF Elements In The Array: ");
         Num = Reverse.nextInt();
@@ -22,7 +25,7 @@ public class Reverse_Of_Array {
     }
 
     public static void main(String[] args) {
-        Reverse_Of_Array Obj = new Reverse_Of_Array();
+        Q43_Reverse_Of_Array Obj = new Q43_Reverse_Of_Array();
         Obj.Input();
         Obj.Reverse_Array();
     }

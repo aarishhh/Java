@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Function_java {
+public class Q0_Function_Example {
     Scanner Sc = new Scanner(System.in);
     int a, b, c;
 
@@ -18,8 +18,9 @@ public class Function_java {
     void Function_Add() {
         c = a + b;
     }
+
     public static void main(String[] args) {
-        Function_java obj = new Function_java();
+        Q0_Function_Example obj = new Q0_Function_Example();
         obj.Function_Input();
         obj.Function_Add();
         obj.Function_Output();
