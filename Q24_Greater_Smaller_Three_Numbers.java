@@ -1,6 +1,7 @@
+//Write A Java Program To Find The Largest Among Three Given Numbers.
 import java.util.Scanner;
 
-public class Greater_Smaller_Three_Numbers {
+public class Q24_Greater_Smaller_Three_Numbers {
 
     public static void main(String[] args)
 

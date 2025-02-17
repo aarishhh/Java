@@ -1,6 +1,7 @@
+//WAP To Find Greater Between Two Numbers.
 import java.util.Scanner;
 
-public class Greater_Between_Two_Numbers {
+public class Q22_Greater_Between_Two_Numbers {
     public static void main(String[] args) {
         Scanner Greater_Between_Two_Numbers = new Scanner(System.in);
         System.out.println("Enter The First Number: ");

@@ -1,6 +1,7 @@
+//WAP To Find Given Character Is Alphabet, Digit Or Special Symbol.
 import java.util.Scanner;
 
-public class Check_Alphabet_Digit_Special_Symbol {
+public class Q25_Check_If_Alphabet_Digit_Special_Symbol {
     public static void main(String[] args) {
         Scanner Check_Alphabet_Digit_Special_Symbol = new Scanner(System.in);
         System.out.println("Enter A Character: ");

@@ -1,6 +1,7 @@
+//Write A Program To Check Given Student Is Pass Or Fail.
 import java.util.Scanner;
 
-public class Check_If_Pass_Or_Fail {
+public class Q17_Check_If_Pass_Or_Fail {
     public static void main(String[] args) {
         Scanner Check_If_Pass_Or_Fail = new Scanner(System.in);
         System.out.println("Enter Your Marks: ");

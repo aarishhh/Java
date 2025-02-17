@@ -1,6 +1,7 @@
+//Write A Java Program To Check Whether An Alphabet Is Vowel Or Consonant.
 import java.util.Scanner;
 
-public class Check_Alphabet_Is_Vowel_Or_Not {
+public class Q23_Check_If_Vowel_Or_Consonant {
     public static void main(String[] args) {
         Scanner Check_Alphabet_Is_Vowel_Or_Not = new Scanner(System.in);
         System.out.println("Enter A Alphabet: ");

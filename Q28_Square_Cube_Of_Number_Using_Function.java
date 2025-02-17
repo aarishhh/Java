@@ -1,6 +1,7 @@
+//WAP To Find Square And Cube Of Given Number.
 import java.util.Scanner;
 
-public class Square_And_Cube_Of_Number {
+public class Q28_Square_Cube_Of_Number_Using_Function {
     Scanner Square_Cube = new Scanner(System.in);
     int Number;
 
@@ -14,7 +15,7 @@ public class Square_And_Cube_Of_Number {
         System.out.println("Cube Of " + Number + " Is: " + Number * Number * Number); // Cube
     }
     public static void main(String[] args) {
-        Square_And_Cube_Of_Number SquareCube = new Square_And_Cube_Of_Number();
+        Q28_Square_Cube_Of_Number_Using_Function SquareCube = new Q28_Square_Cube_Of_Number_Using_Function();
         SquareCube.Input();
         SquareCube.Square_Cube();
     }

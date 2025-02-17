@@ -1,6 +1,7 @@
+//WAP To Swap Given Two Numbers.
 import java.util.Scanner;
 
-public class Swap_Two_Numbers_Using_Function {
+public class Q27_Swap_Two_Numbers_Using_Function {
     Scanner Swap = new Scanner(System.in);
     int Number_1, Number_2, Temp;
     void Input() {
@@ -21,7 +22,7 @@ public class Swap_Two_Numbers_Using_Function {
         System.out.println("After Swaping The Second Number Is: " + Number_2);
     }
     public static void main(String[] args) {
-        Swap_Two_Numbers_Using_Function Swap = new Swap_Two_Numbers_Using_Function();
+        Q27_Swap_Two_Numbers_Using_Function Swap = new Q27_Swap_Two_Numbers_Using_Function();
         Swap.Input();
         Swap.Swaping();
         Swap.Output();

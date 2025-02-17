@@ -1,6 +1,7 @@
+//Write A Program To Check Given Number Positive Or Negative.
 import java.util.Scanner;
 
-public class Positive_Negative_Number {
+public class Q18_Positive_Negative_Number {
     public static void main(String[] args) {
         Scanner Positive_Negative_Number = new Scanner(System.in);
         System.out.println("Enter a number: ");

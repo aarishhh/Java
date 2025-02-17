@@ -1,6 +1,7 @@
+//WAP To Find Given Year Is Leap Year Or Not.
 import java.util.Scanner;
 
-public class Check_Leep_Year {
+public class Q21_Check_Leep_Year {
     public static void main(String[] args) {
         Scanner Check_Leep_Year = new Scanner(System.in);
         System.out.println("Enter The Year: ");

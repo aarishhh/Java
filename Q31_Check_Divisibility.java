@@ -1,6 +1,7 @@
+//WAP To Check First Number Is Divisible By Second Number Or Not.
 import java.util.Scanner;
 
-public class Check_Divisibility {
+public class Q31_Check_Divisibility {
     Scanner Check_Divisibility = new Scanner(System.in);
     float A, B;
     void Check_Divisibility_Input() {
@@ -11,13 +12,13 @@ public class Check_Divisibility {
     }
     void Check_Divisibility_Condition() {
         if (A % B == 0) {
-            System.out.println("A Is Divisible By B");
+            System.out.println(A+" Is Divisible By "+B);
         } else {
-            System.out.println("A Is Not Divisible By B");
+            System.out.println(A+" Is Not Divisible By "+B);
         }
     }
     public static void main(String[] args) {
-        Check_Divisibility obj = new Check_Divisibility();
+        Q31_Check_Divisibility obj = new Q31_Check_Divisibility();
         obj.Check_Divisibility_Input();
         obj.Check_Divisibility_Condition();
     }

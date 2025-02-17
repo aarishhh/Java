@@ -1,6 +1,7 @@
+//Write A Program To Check Given Person Can Vote Or Not.
 import java.util.Scanner;
 
-public class Vote_Eligibility {
+public class Q16_Eligibility_To_Vote {
     public static void main(String[] args) {
         Scanner Vote_Eligibility = new Scanner(System.in);
             System.out.println("Enter Your Age: ");
