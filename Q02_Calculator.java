@@ -1,7 +1,7 @@
 //Write A Program To Add, Subtract, Multiply And Divide Two Integer Numbers. Take Input From User.
 import java.util.Scanner;
 
-public class Q2_Calculator {
+public class Q02_Calculator {
     public static void main(String[] args) {
         Scanner Calculator = new Scanner(System.in);
         System.out.println("Enter Two Numbers To Get Addition, Subtraction, Multiplication, Division: ");

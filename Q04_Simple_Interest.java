@@ -1,7 +1,7 @@
 //Write A Program To Calculate Simple Interest And Final Amount Paid To The Bank.
 import java.util.Scanner;
 
-public class Q4_Simple_Interest {
+public class Q04_Simple_Interest {
     public static void main(String[] args) {
         Scanner SI = new Scanner(System.in);
         System.out.println("To Calculate Simple Interest Enter The Following Details: ");

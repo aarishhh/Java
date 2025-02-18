@@ -1,7 +1,7 @@
 //Write A Program To Find Square And Cube Of Given Number.
 import java.util.Scanner;
 
-public class Q5_Square_Cube_Of_Number {
+public class Q05_Square_Cube_Of_Number {
     public static void main(String[] args) {
         Scanner Square_Cube_Of_Number = new Scanner(System.in);
         System.out.println("Give A Number To Get Its Square And Cube Root: ");

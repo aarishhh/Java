@@ -1,6 +1,6 @@
 //Write A Program To Swap Two Given Numbers Making Use Of Temporary Variable.
 import java.util.Scanner;
-public class Q3_Swaping_Two_Numbers_With_Temp {
+public class Q03_Swaping_Two_Numbers_With_Temp {
     public static void main(String[] args) {
         Scanner Swapping = new Scanner(System.in);
         System.out.println("Give Two Numbers To Swap Them: ");

@@ -1,6 +1,6 @@
 //Write a Program To Find Circumstance Of Circle.
 import java.util.Scanner;
-public class Q8_Circumference_Of_Circle {
+public class Q08_Circumference_Of_Circle {
     public static void main(String[] args) {
         Scanner Circumference_Of_Circle = new Scanner(System.in);
         System.out.println("Enter Radius Of Circle To Get Circumference: ");
