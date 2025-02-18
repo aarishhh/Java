@@ -1,4 +1,4 @@
-//WAP To Find Maximum Value In Given 1D Array. Take Number Of Elements From User.
+//WAP To Find Minimum Value In Given 1D Array. Take Number Of Elements From User.
 import java.util.Scanner;
 
 public class Q46_Minimum_Value_Of_Array {
