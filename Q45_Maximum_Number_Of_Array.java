@@ -19,7 +19,7 @@ public class Q45_Maximum_Number_Of_Array {
 
     void Maximum_Number() {
         int Max = Number[0];
-        for (int i = 0; i < Num; i++) {
+        for (int i = 1; i < Num; i++) {
             if (Number[i] > Max) {
                 Max = Number[i];
             }
