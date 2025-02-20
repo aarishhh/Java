@@ -1,3 +1,4 @@
+//WAP To Input 5 Names And Display It.
 import java.util.Scanner;
 
 public class Q49_Display_Entered_Names {
