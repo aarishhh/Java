@@ -20,7 +20,7 @@ public class Q50_Sort_Names_In_Alphabetical_Order {
     void Sorting() {
         System.out.println("Sorted In Alphabetical Order: ");
         for (int i = 0; i < Alpha - 1; i++) {
-            for (int j = 0; j < Alpha; j++) {
+            for (int j = i + 1; j < Alpha; j++) {
                 if (Alphabet[i].compareTo(Alphabet[j]) > 0) {
                     String temp = Alphabet[i];
                     Alphabet[i] = Alphabet[j];
