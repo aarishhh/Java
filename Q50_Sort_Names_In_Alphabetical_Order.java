@@ -1,3 +1,4 @@
+//WAP To Input 5 Names And Sort It In Ascending Order.
 import java.util.Scanner;
 
 public class Q50_Sort_Names_In_Alphabetical_Order {
