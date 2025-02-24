@@ -1,3 +1,5 @@
+
+//WAP To Find The Second Largest Element In Given 1D Array.
 import java.util.Scanner;
 
 public class Q53_2nd_Largest_Number_In_Array {
@@ -13,21 +15,23 @@ public class Q53_2nd_Largest_Number_In_Array {
             Number[i] = Second_Largest.nextInt();
         }
     }
+
     void Finding() {
         int Max = Number[0];
         int Second_Max = Number[0];
-        for(int i = 0; i < Num; i++) {
-            if(Number[i] > Max) {
+        for (int i = 0; i < Num; i++) {
+            if (Number[i] > Max) {
                 Max = Number[i];
             }
         }
-        for(int i = 0; i < Num; i++) {
-            if(Number[i] > Second_Max && Number[i] < Max) {
+        for (int i = 0; i < Num; i++) {
+            if (Number[i] > Second_Max && Number[i] < Max) {
                 Second_Max = Number[i];
             }
         }
         System.out.println("The 2nd Greatest Number Is: " + Second_Max);
     }
+
     public static void main(String[] args) {
         Q53_2nd_Largest_Number_In_Array Obj = new Q53_2nd_Largest_Number_In_Array();
         Obj.Input();
