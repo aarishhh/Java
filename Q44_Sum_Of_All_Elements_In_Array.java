@@ -18,7 +18,7 @@ public class Q44_Sum_Of_All_Elements_In_Array {
     void Sum() {
         int Sum = 0;
         for (int i = 0; i < Num; i++) {
-            Sum = Sum + Number[i];
+            Sum += Number[i];
         }
         System.out.println("Sum Of All Elements In The Array Is: " + Sum);
     }
