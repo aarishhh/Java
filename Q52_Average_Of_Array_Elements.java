@@ -1,9 +1,11 @@
+
 //WAP To Find The Avarage Of Elements In A 1D Array
 import java.util.Scanner;
 
 public class Q52_Average_Of_Array_Elements {
     Scanner Average = new Scanner(System.in);
     int Num, Number[];
+
     void Input() {
         System.out.print("Enter The Size Of Array: ");
         Num = Average.nextInt();
