@@ -18,6 +18,7 @@ public class Q55_Display_Given_Matrix {
                 Matrix[i][j] = Display_Matrix.nextInt();
             }
         }
+        Display_Matrix.close();
     }
 
     void Output() {
