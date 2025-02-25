@@ -2,14 +2,21 @@ import java.util.Scanner;
 
 public class Q59_PalindromeCheck {
     Scanner Palindrome = new Scanner(System.in);
+
     void Palindrome_Check() {
-        System.out.println("Enter a string:");
-        String Str = Palindrome.next();
-        String ReversedStr = new StringBuilder(Str).reverse().toString();
-        if (Str.equals(ReversedStr)) {
+        String Str = new String();
+        System.out.print("Enter a string: ");
+        Str = Palindrome.nextLine();
+        StringBuilder ReversedStr = new StringBuilder(Str);
+        if (Str.equals(ReversedStr.reverse().toString())) {
             System.out.println("The String Is A Palindrome.");
         } else {
             System.out.println("The String Is Not A Palindrome.");
         }
+    }
+
+    public static void main(String[] args) {
+        Q59_PalindromeCheck Obj = new Q59_PalindromeCheck();
+        Obj.Palindrome_Check();
     }
 }
