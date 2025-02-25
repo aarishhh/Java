@@ -27,9 +27,7 @@ public class Q60_Find_Vowels_And_Consonants {
     }
 
     public static void main(String[] args) {
-        while (true) {
-            Q60_Find_Vowels_And_Consonants Obj = new Q60_Find_Vowels_And_Consonants();
-            Obj.Find_Vowels_Consonants();
-        }
+        Q60_Find_Vowels_And_Consonants Obj = new Q60_Find_Vowels_And_Consonants();
+        Obj.Find_Vowels_Consonants();
     }
 }

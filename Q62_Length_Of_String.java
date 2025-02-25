@@ -11,9 +11,7 @@ public class Q62_Length_Of_String {
         System.out.println("The Length Of The Given String Is: " + Length);
     }
     public static void main(String[] args) {
-        while(true) {
-            Q62_Length_Of_String Obj = new Q62_Length_Of_String();
-            Obj.Check_Length();
-        }
+        Q62_Length_Of_String Obj = new Q62_Length_Of_String();
+        Obj.Check_Length();
     }
 }
