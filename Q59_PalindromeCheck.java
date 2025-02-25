@@ -16,7 +16,9 @@ public class Q59_PalindromeCheck {
     }
 
     public static void main(String[] args) {
-        Q59_PalindromeCheck Obj = new Q59_PalindromeCheck();
-        Obj.Palindrome_Check();
+        while (true) {
+            Q59_PalindromeCheck Obj = new Q59_PalindromeCheck();
+            Obj.Palindrome_Check();
+        }
     }
 }

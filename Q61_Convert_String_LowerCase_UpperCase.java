@@ -1,3 +1,4 @@
+//WAP To Convert Given String To Upper Case And Lower Case.
 import java.util.Scanner;
 
 public class Q61_Convert_String_LowerCase_UpperCase {

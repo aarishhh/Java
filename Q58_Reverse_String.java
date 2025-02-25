@@ -12,7 +12,9 @@ public class Q58_Reverse_String {
         System.out.println("Reversed string: " + Str);
     }
     public static void main(String[] args) {
-        Q58_Reverse_String Obj = new Q58_Reverse_String();
-        Obj.Reversing();
+        while (true) {
+            Q58_Reverse_String Obj = new Q58_Reverse_String();
+            Obj.Reversing();
+        }
     }
 }
