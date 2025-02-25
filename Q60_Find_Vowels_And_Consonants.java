@@ -23,7 +23,6 @@ public class Q60_Find_Vowels_And_Consonants {
 
         System.out.println("Vowels: " + VowelCount);
         System.out.println("Consonants: " + ConsonantCount);
-
         Vowels_Consonants.close();
     }
 
