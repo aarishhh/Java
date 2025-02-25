@@ -1,12 +1,14 @@
+
 //WAP To Count Vowels And Consonants In A Given String.
 import java.util.Scanner;
 
 public class Q60_Find_Vowels_And_Consonants {
     Scanner Vowels_Consonants = new Scanner(System.in);
+    String Str = new String();
 
     void Find_Vowels_Consonants() {
         System.out.print("Enter A String: ");
-        String Str = Vowels_Consonants.next();
+        Str = Vowels_Consonants.next();
         int VowelCount = 0;
         int ConsonantCount = 0;
         Str = Str.toLowerCase();
