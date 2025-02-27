@@ -9,7 +9,7 @@ public class Q58_Reverse_String {
         Strr = Reverse.next();
         StringBuilder Str = new StringBuilder(Strr);
         Str.reverse();
-        System.out.println("Reversed string: " + Str);
+        System.out.println("Reversed String: " + Str);
     }
     public static void main(String[] args) {
         Q58_Reverse_String Obj = new Q58_Reverse_String();
