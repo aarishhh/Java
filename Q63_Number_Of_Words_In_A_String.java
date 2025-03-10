@@ -1,3 +1,4 @@
+//WAP To Count The Number Of Words In The Given String.
 import java.util.Scanner;
 
 public class Q63_Number_Of_Words_In_A_String {
@@ -6,7 +7,7 @@ public class Q63_Number_Of_Words_In_A_String {
         System.out.print("Enter A String: ");
         String Str = Count_Words.nextLine();
         String[] Words = Str.split("\\s+");
-        
+
         System.out.println("The Number Of Words In The Given String Is: " + (Words.length));
         Count_Words.close();
     }
