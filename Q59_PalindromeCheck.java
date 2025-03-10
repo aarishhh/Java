@@ -1,3 +1,4 @@
+//WAP To Check Given String Is Palindrome Or Not
 import java.util.Scanner;
 
 public class Q59_PalindromeCheck {
