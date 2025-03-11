@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Q00_Constructor_Example {
+public class Q66_Addition_Using_Constructor {
     int Num1, Num2;
-    Q00_Constructor_Example() {
+    Q66_Addition_Using_Constructor() {
         Scanner Constructor = new Scanner(System.in);
         System.out.print("Enter 1st Number: ");
         Num1 = Constructor.nextInt();
@@ -14,7 +14,7 @@ public class Q00_Constructor_Example {
         System.out.println("The Addition Of: \n" + Num1 + " + " + Num2 + " = " + (Num1 + Num2));
     }
     public static void main(String[] args) {
-        Q00_Constructor_Example Obj = new Q00_Constructor_Example();
+        Q66_Addition_Using_Constructor Obj = new Q66_Addition_Using_Constructor();
         Obj.Output();
     }
 }
