@@ -1,3 +1,4 @@
+//WAP To Add Given Two Numbers Using Default Constructor.
 import java.util.Scanner;
 
 public class Q66_Addition_Using_Constructor {
