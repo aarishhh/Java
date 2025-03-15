@@ -10,8 +10,7 @@ public class Q64_Replace_Occurrences_Of_A_Character {
         char Character = Replace_Occurrences.next().charAt(0);
         System.out.print("Enter The Character To Want To Replace " + Character + " With: ");
         char Character_Replace = Replace_Occurrences.next().charAt(0);
-        String Replaced = Str.replace(Character, Character_Replace);
-        System.out.println("After Replacing: " + Replaced);
+        System.out.println("After Replacing: " + Str.replace(Character, Character_Replace));
         Replace_Occurrences.close();
     }
     public static void main(String[] args) {
