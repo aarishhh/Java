@@ -29,7 +29,6 @@ public class Q68_Book {
         System.out.println("The Price Of The Book Is: " + Pricee);
     }
     public static void main(String[] args) {
-        Q68_Book Obj = new Q68_Book();
         Q68_Book Object = new Q68_Book(" ", " " , 0.0);
         Object.DisplayDetails();
     }
