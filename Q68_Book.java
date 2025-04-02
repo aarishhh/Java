@@ -2,31 +2,28 @@ import java.util.Scanner;
 
 public class Q68_Book {
     Scanner Book = new Scanner(System.in);
-    String Authorr;
-    String Titlee;
-    double Pricee;
+    String Author;
+    String Title;
+    double Price;
 
     Q68_Book() {
-        Titlee = "Unknown";
-        Authorr = "Unknown";
-        Pricee = 0.0;
+        Title = "Unknown";
+        Author = "Unknown";
+        Price = 0.0;
     }
 
-    Q68_Book(String Title, String Author, double Price) {
+    Q68_Book(String title, String author, double price) {
         System.out.print("Enter Title Name: ");
         Title = Book.nextLine();
         System.out.print("Enter Author's Name: ");
         Author = Book.nextLine();
         System.out.print("Enter Price: ");
         Price = Book.nextInt();
-        Titlee = Title;
-        Authorr = Author;
-        Pricee = Price;
     }
     void DisplayDetails() {
-        System.out.println("The Title Of The Book Is: " + Titlee);
-        System.out.println("The Author Of The Book Is: " + Authorr);
-        System.out.println("The Price Of The Book Is: " + Pricee);
+        System.out.println("The Title Of The Book Is: " + Title);
+        System.out.println("The Author Of The Book Is: " + Author);
+        System.out.println("The Price Of The Book Is: " + Price);
     }
     public static void main(String[] args) {
         Q68_Book Object = new Q68_Book(" ", " " , 0.0);

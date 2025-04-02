@@ -11,12 +11,12 @@ public class Q00_OverLoading {
         Num2 = Calculation.nextFloat(); 
         Calculation.close();
     }
-    float Addition(float num1, float num2) {
+    float Addition(float num1) {
         float Result = Num1 + Num2;
         return Result;
     }
 
-    float Multiplication(float num1, float num2) {
+    float Multiplication(float num1) {
         float Result = Num1 * Num2;
         return Result;
     }
@@ -24,7 +24,7 @@ public class Q00_OverLoading {
     public static void main(String[] args) {
         Q00_OverLoading Obj = new Q00_OverLoading();
         Obj.Input();
-        System.out.printf("Addition = %.2f\n", Obj.Addition(0, 0));
-        System.out.printf("Multiplication = %.2f", Obj.Multiplication(0, 0));
+        System.out.printf("Addition = %.2f\n", Obj.Addition(0));
+        System.out.printf("Multiplication = %.2f", Obj.Multiplication(0));
     }
 }
