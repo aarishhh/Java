@@ -18,7 +18,7 @@ public class Q68_Book {
         System.out.print("Enter Author's Name: ");
         Author = Book.nextLine();
         System.out.print("Enter Price: ");
-        Price = Book.nextInt();
+        Price = Book.nextDouble();
         this.Title = Title;
         this.Author = Author;
         this.Price = Price;
@@ -27,7 +27,7 @@ public class Q68_Book {
     void DisplayDetails() {
         System.out.println("The Title Of The Book Is: " + Title);
         System.out.println("The Author Of The Book Is: " + Author);
-        System.out.printf("The Price Of The Book Is: %.2f" + Price);
+        System.out.printf("The Price Of The Book Is: %.2f" , Price);
     }
 
     public static void main(String[] args) {
