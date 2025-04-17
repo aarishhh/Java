@@ -20,7 +20,7 @@ public class Q69_Employee {
 
     void DisplayInfo() {
         System.out.println("Employee Name Is: " + Name);
-        System.out.println("Employee Salary Is: " + Salary);
+        System.out.printf("Employee Salary Is: %.2f" , Salary);
     }
 
     public static void main(String[] args) {
